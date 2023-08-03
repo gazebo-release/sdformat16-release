@@ -1,4 +1,4 @@
-Source: sdformat13
+Source: sdformat14
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -18,16 +18,16 @@ Build-Depends: cmake,
                python3-gz-math7,
                libgz-utils2-cli-dev,
                libgz-utils2-dev
-Vcs-Browser: https://github.com/gazebo-release/sdformat13-release
-Vcs-Git: https://github.com/gazebo-release/sdformat13-release
+Vcs-Browser: https://github.com/gazebo-release/sdformat14-release
+Vcs-Git: https://github.com/gazebo-release/sdformat14-release
 Standards-Version: 4.5.1
 Homepage: http://sdformat.org
 
-Package: libsdformat13
+Package: libsdformat14
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
-Depends:  sdformat13-sdf (>= ${source:Version}),
+Depends:  sdformat14-sdf (>= ${source:Version}),
           ${shlibs:Depends},
           ${misc:Depends}
 Multi-Arch: same
@@ -48,7 +48,7 @@ Description: Simulation Description Format (SDF) parser - Shared library
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: libsdformat13-dev
+Package: libsdformat14-dev
 Architecture: any
 Section: libdevel
 Depends: libtinyxml2-dev,
@@ -56,7 +56,7 @@ Depends: libtinyxml2-dev,
          libgz-math7-dev,
          libgz-utils2-cli-dev,
          libgz-utils2-dev,
-         libsdformat13 (= ${binary:Version}),
+         libsdformat14 (= ${binary:Version}),
          ${misc:Depends}
 Breaks: libsdformat2-dev,
         libsdformat3-dev,
@@ -76,7 +76,7 @@ Description: Simulation Description Format (SDF) parser - Development files
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: sdformat13-sdf
+Package: sdformat14-sdf
 Architecture: all
 Section: libdevel
 Depends: ${misc:Depends}
@@ -94,12 +94,12 @@ Description: Simulation Description Format (SDF) parser - SDF files
  This package contains SDF (Simulation Description Format) XML files needed by
  the libsdformat.
 
-Package: python3-sdformat13
+Package: python3-sdformat14
 Architecture: any
 Depends: ${misc:Depends},
          python3-gz-math7,
          ${python3:Depends}
-Enhances: libsdformat13
+Enhances: libsdformat14
 Description: Simulation Description Format (SDF) parser - SDF files
  SDF is an XML file format that describes environments, objects, and robots
  in a manner suitable for robotic applications. SDF is capable of representing
@@ -111,12 +111,12 @@ Description: Simulation Description Format (SDF) parser - SDF files
  .
  This package contains the Python bindings for SDFormat
 
-Package: libsdformat13-dbg
+Package: libsdformat14-dbg
 Architecture: any
 Section: debug
 Priority: extra
 Depends:
-     libsdformat13 (= ${binary:Version}),
+     libsdformat14 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Debugging symbols
@@ -128,7 +128,7 @@ Description: Simulation Description Format (SDF) parser - Debugging symbols
  allows conversion from previous versions. A parser is also contained within
  this package that reads SDF files and returns a C++ interface.
 
-Package: sdformat13-doc
+Package: sdformat14-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}, libjs-jquery
