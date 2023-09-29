@@ -1,3 +1,9 @@
+sdformat14 (14.0.0-1~jammy) jammy; urgency=medium
+
+  * sdformat14 14.0.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 29 Sep 2023 13:10:45 -0500
+
 sdformat14 (14.0.0~pre3-1~jammy) jammy; urgency=medium
 
   * sdformat14 14.0.0~pre3-1 release
