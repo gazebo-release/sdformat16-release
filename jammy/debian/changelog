@@ -1,29 +1,6 @@
-sdformat14 (14.0.0-1~jammy) jammy; urgency=medium
-
-  * sdformat14 14.0.0-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 29 Sep 2023 13:10:45 -0500
-
-sdformat14 (14.0.0~pre3-1~jammy) jammy; urgency=medium
-
-  * sdformat14 14.0.0~pre3-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 27 Sep 2023 21:09:47 -0500
-
-sdformat14 (14.0.0~pre2-1~jammy) jammy; urgency=medium
-
-  * sdformat14 14.0.0~pre2-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 30 Aug 2023 20:48:31 -0500
-
-sdformat14 (14.0.0~pre1-1~jammy) jammy; urgency=medium
-
-  * sdformat14 14.0.0~pre1-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Wed, 30 Aug 2023 22:03:18 +0000
-
-sdformat14 (13.999.999-1~jammy) jammy; urgency=medium
+sdformat15 (14.999.999-1~jammy) jammy; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Addisu Taddese <addisu@osrfoundation.org>  Tue, 1 Aug 2023 12:00:00 +0100
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 11 Oct 2023 13:38:51 -0500
+

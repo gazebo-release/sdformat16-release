@@ -1,4 +1,4 @@
 usr/include/*
 usr/lib/*/*.so
 usr/lib/*/pkgconfig/*.pc
-usr/lib/*/cmake/sdformat14*/*
+usr/lib/*/cmake/sdformat15*/*
