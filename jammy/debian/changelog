@@ -1,3 +1,9 @@
+sdformat15 (15.0.0-1~jammy) jammy; urgency=medium
+
+  * sdformat15 15.0.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 26 Sep 2024 13:36:28 -0500
+
 sdformat15 (15.0.0~pre2-1~jammy) jammy; urgency=medium
 
   * sdformat15 15.0.0~pre2-1 release
@@ -9,10 +15,3 @@ sdformat15 (15.0.0~pre1-1~jammy) jammy; urgency=medium
   * sdformat15 15.0.0~pre1-1 release
 
  -- Ian Chen <ichen@openrobotics.org>  Tue, 27 Aug 2024 02:01:32 +0000
-
-sdformat15 (14.999.999-1~jammy) jammy; urgency=medium
-
-  * Stub to be removed after first entry
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 11 Oct 2023 13:38:51 -0500
-
