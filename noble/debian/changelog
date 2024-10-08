@@ -1,17 +1,6 @@
-sdformat15 (15.0.0-1~noble) noble; urgency=medium
+sdformat16 (15.999.999-1~noble) noble; urgency=medium
 
-  * sdformat15 15.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 26 Sep 2024 13:36:28 -0500
+ -- Carlos Aguero <caguero@openrobotics.org>  Tue, 08 Oct 2024 21:02:41 +0200
 
-sdformat15 (15.0.0~pre2-1~noble) noble; urgency=medium
-
-  * sdformat15 15.0.0~pre2-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Wed, 28 Aug 2024 01:40:06 +0000
-
-sdformat15 (15.0.0~pre1-1~noble) noble; urgency=medium
-
-  * sdformat15 15.0.0~pre1-1 release
-
- -- Ian Chen <ichen@openrobotics.org>  Tue, 27 Aug 2024 02:01:32 +0000
