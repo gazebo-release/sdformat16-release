@@ -16,7 +16,8 @@ Build-Depends: cmake,
                libgz-math9-dev,
                python3-gz-math9,
                libgz-utils4-cli-dev,
-               libgz-utils4-dev
+               libgz-utils4-dev,
+               liburdfdom-headers-dev
 Vcs-Browser: https://github.com/gazebo-release/sdformat16-release
 Vcs-Git: https://github.com/gazebo-release/sdformat16-release
 Standards-Version: 4.5.1
@@ -47,6 +48,7 @@ Depends: libtinyxml2-dev,
          libgz-math9-dev,
          libgz-utils4-cli-dev,
          libgz-utils4-dev,
+         liburdfdom-headers-dev,
          libsdformat16 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
