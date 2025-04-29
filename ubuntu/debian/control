@@ -29,6 +29,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends:  sdformat16-sdf (>= ${source:Version}),
           ${shlibs:Depends},
           ${misc:Depends}
+Recommends: sdformat16-cli
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
@@ -77,6 +78,23 @@ Description: Simulation Description Format (SDF) parser - SDF files
  This package contains SDF (Simulation Description Format) XML files needed by
  the libsdformat.
 
+Package: sdformat16-cli
+Architecture: any
+Depends: libsdformat16 (= ${binary:Version}),
+         ${shlibs:Depends},
+         ${misc:Depends}
+Multi-Arch: no
+Description: Simulation Description Format (SDF) parser - CLI
+ SDF is an XML file format that describes environments, objects, and robots
+ in a manner suitable for robotic applications. SDF is capable of representing
+ and describing different physic engines, lighting properties, terrain, static
+ or dynamic objects, and articulated robots with various sensors, and acutators.
+ The format of SDF is also described by XML, which facilitates updates and
+ allows conversion from previous versions. A parser is also contained within
+ this package that reads SDF files and returns a C++ interface.
+ .
+ The package ships the CLI.
+
 Package: python3-sdformat16
 Architecture: any
 Depends: ${misc:Depends},
@@ -97,7 +115,7 @@ Description: Simulation Description Format (SDF) parser - SDF files
 Package: libsdformat16-dbg
 Architecture: any
 Section: debug
-Priority: extra
+Priority: optional
 Depends:
      libsdformat16 (= ${binary:Version}),
      ${misc:Depends}
