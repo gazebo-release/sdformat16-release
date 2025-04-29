@@ -20,7 +20,7 @@ int main()
 }
 EOF
 
-g++ -o sdformattest sdformattest.cc `pkg-config --cflags --libs sdformat16`
+g++ -o sdformattest sdformattest.cc `pkg-config --cflags --libs sdformat`
 echo "build pkgconfig: OK"
 [ -x sdformattest ]
 ./sdformattest
@@ -32,11 +32,11 @@ cmake_minimum_required(VERSION 3.5)
 
 project(sdf_test VERSION 1.0.0)
 
-find_package(sdformat16 16.0.0 REQUIRED)
+find_package(sdformat 16.0.0 REQUIRED)
 add_executable(sdftest sdformattest.cc)
 target_link_libraries(sdftest
    PUBLIC
-     sdformat16::sdformat16)
+     sdformat::sdformat)
 EOF
 
 cmake .
