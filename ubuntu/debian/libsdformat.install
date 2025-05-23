@@ -1,2 +1,2 @@
 usr/lib/*/*.so.*
-usr/share/gz/sdformat[0-9][0-9]/*
+usr/share/gz/sdformat
