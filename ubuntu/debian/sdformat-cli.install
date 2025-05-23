@@ -1,0 +1,4 @@
+usr/libexec/gz/*
+usr/lib/ruby/*/*.rb
+usr/share/*/*.yaml
+usr/share/gz/*.completion*/*
