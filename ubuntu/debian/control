@@ -148,3 +148,27 @@ Description: Simulation Description Format (SDF) parser - Documentation
  this package that reads SDF files and returns a C++ interface.
  .
  This package contains the program documentation
+
+Package: gz-jetty-sdformat
+Depends: libsdformat16-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-sdformat-cli
+Depends: sdformat16-cli (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
+
+Package: gz-jetty-sdformat-python
+Depends: python3-sdformat16 (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
