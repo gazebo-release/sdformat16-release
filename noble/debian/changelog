@@ -1,3 +1,9 @@
+sdformat16 (16.0.0~pre1-1~noble) noble; urgency=medium
+
+  * sdformat16 16.0.0~pre1-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Mon, 25 Aug 2025 17:43:46 +0000
+
 sdformat16 (15.999.999-1~noble) noble; urgency=medium
 
   * Stub to be removed after first entry
