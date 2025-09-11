@@ -1,3 +1,9 @@
+sdformat16 (16.0.0~pre2-1~noble) noble; urgency=medium
+
+  * sdformat16 16.0.0~pre2-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Thu, 11 Sep 2025 18:30:47 +0000
+
 sdformat16 (16.0.0~pre1-1~noble) noble; urgency=medium
 
   * sdformat16 16.0.0~pre1-1 release
