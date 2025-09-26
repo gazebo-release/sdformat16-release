@@ -1,3 +1,9 @@
+sdformat16 (16.0.0-1~noble) noble; urgency=medium
+
+  * sdformat16 16.0.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 26 Sep 2025 22:32:36 +0000
+
 sdformat16 (16.0.0~pre2-1~noble) noble; urgency=medium
 
   * sdformat16 16.0.0~pre2-1 release
