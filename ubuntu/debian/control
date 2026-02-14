@@ -101,7 +101,8 @@ Description: Simulation Description Format (SDF) parser - CLI
 
 Package: python3-sdformat16
 Architecture: any
-Depends: ${misc:Depends},
+Depends: libsdformat16 (= ${binary:Version}),
+         ${misc:Depends},
          python3-gz-math9,
          ${python3:Depends}
 Enhances: libsdformat16
