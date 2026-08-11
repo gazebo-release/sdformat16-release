@@ -1,0 +1,36 @@
+sdformat16 (16.1.0-1~resolute) resolute; urgency=medium
+
+  * sdformat16 16.1.0-1 release
+
+ -- Steve Peters <scpeters@intrinsic.ai>  Fri, 10 Jul 2026 22:19:32 +0000
+
+sdformat16 (16.0.1-1~resolute) resolute; urgency=medium
+
+  * sdformat16 16.0.1-1 release
+
+ -- Arjo Chakravarty <arjo@openrobotics.org>  Wed, 21 Jan 2026 02:12:27 +0000
+
+sdformat16 (16.0.0-1~resolute) resolute; urgency=medium
+
+  * sdformat16 16.0.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 26 Sep 2025 22:32:36 +0000
+
+sdformat16 (16.0.0~pre2-1~resolute) resolute; urgency=medium
+
+  * sdformat16 16.0.0~pre2-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Thu, 11 Sep 2025 18:30:47 +0000
+
+sdformat16 (16.0.0~pre1-1~resolute) resolute; urgency=medium
+
+  * sdformat16 16.0.0~pre1-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Mon, 25 Aug 2025 17:43:46 +0000
+
+sdformat16 (15.999.999-1~resolute) resolute; urgency=medium
+
+  * Stub to be removed after first entry
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Tue, 08 Oct 2024 21:02:41 +0200
+
