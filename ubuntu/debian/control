@@ -189,6 +189,7 @@ Priority: optional
 Section: metapackages
 Description: alias package
  Provides a package for Jetty without exposing the version number.
+
 Package: python3-gz-jetty-sdformat
 Depends: python3-sdformat16 (= ${binary:Version}), ${misc:Depends}
 Architecture: all
