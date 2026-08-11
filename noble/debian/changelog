@@ -1,3 +1,9 @@
+sdformat16 (16.1.0-2~noble) noble; urgency=medium
+
+  * sdformat16 16.1.0-2 release
+
+ -- Steve Peters <scpeters@intrinsic.ai>  Tue, 11 Aug 2026 18:35:08 +0000
+
 sdformat16 (16.1.0-1~noble) noble; urgency=medium
 
   * sdformat16 16.1.0-1 release
