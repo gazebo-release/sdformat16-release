@@ -28,7 +28,7 @@ echo "run pkgconfig: OK"
 
 # 2. CMAKE
 cat <<EOF > CMakeLists.txt
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.22.1)
 
 project(sdf_test VERSION 1.0.0)
 
